@@ -1,0 +1,158 @@
+name: fluttermart
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_slider: ^5.0.0
+  lottie: ^2.7.0
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^5.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/logo/
+    - assets/categories/
+    - assets/logo/splashScreen.lottie
+    - assets/carouselBanners/
+    - assets/books/book1.jpg
+    - assets/books/book2.jpg
+    - assets/books/book3.jpg
+    - assets/books/book4.jpg
+    - assets/books/book5.jpg
+    - assets/books/book6.jpg
+    - assets/books/book7.jpg
+    - assets/books/book8.jpg
+    - assets/books/book9.jpg
+    - assets/books/book10.jpg
+    - assets/phones/galaxys23.jpg
+    - assets/phones/iqooz7pro.jpg
+    - assets/phones/motoedge40.jpg
+    - assets/phones/narzo60pro.jpg
+    - assets/phones/oneplus11r.jpg
+    - assets/phones/pixel7a.jpg
+    - assets/phones/redmi12pro.jpg
+    - assets/phones/rogphone7.jpg
+    - assets/phones/vivov29.jpg
+    - assets/phones/iphone14pro.jpg
+    - assets/appliances/bajaj_mixer.jpg
+    - assets/appliances/crompton_fan.jpg
+    - assets/appliances/dyson_v8.jpg
+    - assets/appliances/havell_kettle.jpg
+    - assets/appliances/ifb_microwave.jpg
+    - assets/appliances/lg_fridge.jpg
+    - assets/appliances/philips_airfryer.jpg
+    - assets/appliances/samsung_wash.jpg
+    - assets/appliances/sony_tv.jpg
+    - assets/appliances/whirlpool_ac.jpg
+    - assets/shoes/adidas_ultraboost.jpg
+    - assets/shoes/asics_kayano.jpg
+    - assets/shoes/bata_power.jpg
+    - assets/shoes/campus_oxyfit.jpg
+    - assets/shoes/nb_574.jpg
+    - assets/shoes/nike_airmax90.jpg
+    - assets/shoes/puma_rsx.jpg
+    - assets/shoes/rebook_nano.jpg
+    - assets/shoes/skechers_gowalk.jpg
+    - assets/shoes/woodland_boots.jpg
+    - assets/watches/apple_watch_se.jpg
+    - assets/watches/boat_xtend.jpg
+    - assets/watches/fastrack_beat.jpg
+    - assets/watches/firebolt.jpg
+    - assets/watches/fossil_gen6.jpg
+    - assets/watches/galaxy_watch6.jpg
+    - assets/watches/garmin_45.jpg
+    - assets/watches/gshock.jpg
+    - assets/watches/noise_pro4.jpg
+    - assets/watches/titan_neo.jpg
+    - assets/cloths/allen_solly_blazer.jpg
+    - assets/cloths/biba_kurti.jpg
+    - assets/cloths/denim_kacket.jpg
+    - assets/cloths/fabindia_saree.jpg
+    - assets/cloths/floral_dress.jpg
+    - assets/cloths/hm_tshirt.jpg
+    - assets/cloths/pepe_jeans.jpg
+    - assets/cloths/roadster_chinos.jpg
+    - assets/cloths/vanheusen_shirt.jpg
+    - assets/cloths/zara_hoodie.jpg
+    - assets/appliances/bajaj_mixer.jpg
+    - assets/wired-flat-63-home-hover-partial-roll.gif
+    - assets/wired-flat-21-avatar-in-reveal.gif
+    - assets/wired-flat-146-trolley-hover-jump.gif
+    - assets/wired-flat-497-truck-delivery-hover-pinch.gif
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Breath_Demo
+      fonts:
+          - asset: fonts/Breath_Demo.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
